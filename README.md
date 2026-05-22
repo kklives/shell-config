@@ -41,11 +41,6 @@ zstyle ':omz:update' mode disabled
 # 插件列表
 plugins=(git autojump fzf tmux sudo)
 
-# 代理设置
-export https_proxy=http://127.0.0.1:7890
-export http_proxy=http://127.0.0.1:7890
-export all_proxy=http://127.0.0.1:7890
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
